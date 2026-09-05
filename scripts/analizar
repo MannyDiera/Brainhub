@@ -1,0 +1,32 @@
+#!/bin/bash
+# ==============================================
+# ANALIZAR - CON CONSOLIDACIÓN OPCIONAL
+# Uso: analizar archivo.txt [--consolidar]
+# ==============================================
+
+ARCHIVO="$1"
+CONSOLIDAR="$2"
+
+if [ -z "$ARCHIVO" ] || [ ! -f "$ARCHIVO" ]; then
+    echo "❌ Uso: analizar archivo.txt [--consolidar]"
+    echo "📋 Ejemplo: analizar transcript.txt"
+    echo "📋 Ejemplo: analizar transcript.txt --consolidar"
+    exit 1
+fi
+
+# Ejecutar el análisis
+python3 ~/proyectos/nlp/analisis_completo_v6.5.py "$ARCHIVO"
+
+# Si se pide consolidar, hacerlo
+if [ "$CONSOLIDAR" == "--consolidar" ]; then
+    BASE="${ARCHIVO%.txt}"
+    DB="${BASE}_analisis.db"
+    
+    if [ -f "$DB" ]; then
+        echo ""
+        echo "🗄️ Consolidando en DuckDB..."
+        ~/consolidar "$DB"
+    else
+        echo "⚠️ No se encontró archivo SQLite para consolidar"
+    fi
+fi
