@@ -1,0 +1,29 @@
+{
+  "hibridos": {
+    "HEALTH-TECH": {
+      "nichos": [
+        "TECNOLOGIA",
+        "SALUD"
+      ],
+      "validado": false,
+      "fecha_creacion": null
+    },
+    "FIN-TECH": {
+      "nichos": [
+        "FINANZAS",
+        "TECNOLOGIA"
+      ],
+      "validado": false,
+      "fecha_creacion": null
+    },
+    "LEGAL-SECURITY": {
+      "nichos": [
+        "LEGAL",
+        "CIBERSEGURIDAD"
+      ],
+      "validado": false,
+      "fecha_creacion": null
+    }
+  },
+  "pendientes_validacion": []
+}

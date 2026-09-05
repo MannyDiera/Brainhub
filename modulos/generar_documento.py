@@ -1,0 +1,136 @@
+#!/data/data/com.termux/files/usr/bin/python3
+"""
+Generador de documento final 80/20 para BrainHub.
+Une: Abstract + Preguntas + Métricas + Timestamps.
+"""
+
+import json
+from typing import Dict, List
+from pathlib import Path
+
+
+class GeneradorDocumento:
+    """Genera documento completo de estudio."""
+    
+    def __init__(self):
+        self.abstract = None
+        self.preguntas = None
+        self.metricas = None
+        self.terminos = None
+    
+    def cargar_datos(
+        self,
+        jerarquia: Dict,
+        terminos_clave: List[str],
+        abstract: str,
+        preguntas: Dict,
+        metricas: Dict = None
+    ):
+        """Carga todos los datos para el documento."""
+        self.jerarquia = jerarquia
+        self.terminos = terminos_clave
+        self.abstract = abstract
+        self.preguntas = preguntas
+        self.metricas = metricas or {}
+    
+    def generar_markdown(self, ruta_salida: str) -> str:
+        """Genera documento Markdown completo."""
+        
+        nicho = self.jerarquia.get('nicho_principal', 'GENERAL')
+        secundarios = self.jerarquia.get('secundarios', {})
+        
+        doc = f"""# 📚 Documento de Estudio 80/20
+## BrainHub - Análisis Jerárquico
+
+---
+
+{self.abstract}
+
+---
+
+## 🔑 Términos Clave
+
+| # | Término | Nicho |
+|---|---------|-------|
+"""
+        
+        for i, termino in enumerate(self.terminos[:10], 1):
+            doc += f"| {i} | {termino} | {nicho} |\n"
+        
+        doc += f"""
+---
+
+## 🎯 Preguntas de Debate
+
+"""
+        
+        for pregunta in self.preguntas.get('preguntas_debate', []):
+            doc += f"### [{pregunta['tipo']}]\n"
+            doc += f"{pregunta['pregunta']}\n\n"
+        
+        if self.metricas:
+            doc += f"""---
+
+## ⏱️ Métricas de Procesamiento
+
+"""
+            for etapa, duracion in self.metricas.items():
+                doc += f"- **{etapa}**: {duracion}s\n"
+        
+        doc += f"""---
+
+## 📊 Jerarquía Detectada
+
+- **Núcleo**: {nicho}
+"""
+        
+        if 'herramienta' in secundarios:
+            doc += f"- **Herramienta**: {secundarios['herramienta']}\n"
+        
+        if 'contexto' in secundarios:
+            doc += f"- **Contexto**: {secundarios['contexto']}\n"
+        
+        doc += f"""
+---
+
+*Generado por BrainHub v6.5 - {self._fecha()}*
+"""
+        
+        with open(ruta_salida, 'w', encoding='utf-8') as f:
+            f.write(doc)
+        
+        return doc
+    
+    def _fecha(self):
+        from datetime import datetime
+        return datetime.now().strftime('%Y-%m-%d %H:%M')
+
+
+if __name__ == '__main__':
+    # Test
+    from modulos.generar_abstract import GeneradorAbstract
+    from modulos.preguntas_debate import GeneradorPreguntas
+    
+    jerarquia = {
+        'recurso_id': 'test_01',
+        'nicho_principal': 'SALUD',
+        'secundarios': {
+            'herramienta': 'TECNOLOGIA',
+            'contexto': 'LEGAL'
+        }
+    }
+    
+    terminos = ['diagnóstico', 'paciente', 'machine learning', 'algoritmo']
+    
+    generador_abstract = GeneradorAbstract()
+    abstract = generador_abstract.generar(jerarquia, terminos)
+    
+    generador_preguntas = GeneradorPreguntas()
+    preguntas = generador_preguntas.generar(jerarquia, terminos)
+    
+    generador_doc = GeneradorDocumento()
+    generador_doc.cargar_datos(jerarquia, terminos, abstract, preguntas)
+    
+    doc = generador_doc.generar_markdown('/data/data/com.termux/files/home/test_documento.md')
+    
+    print(doc)

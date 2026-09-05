@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Tests y caché
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Bases de datos
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos generados
+outputs/
+logs/
+data/processed/
+data/raw/
+
+# Backups
+*.backup
+*.backup_*
+
+# Dependencias
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos temporales
+tmp/
+*.tmp
+*.temp
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Audio generado
+*.mp3
+*.wav
+
+# Transcripciones grandes
+*.txt.transcripcion

@@ -1,0 +1,48 @@
+============================================================
+🧠 ANÁLISIS COMPLETO V6.5
+============================================================
+
+📄 Documento: patrones.txt
+📊 Segmentos válidos: 21
+💬 Diálogos extraídos: 0
+🔍 Nicho detectado: TECNOLOGIA
+
+📌 Términos clave (sin stopwords):
+  agentes: 8
+  patrones: 5
+  ingenieria: 4
+  inteligencia: 4
+  sistemas: 4
+  google: 3
+  agents: 3
+  challenge: 3
+  tecnica: 3
+  equipos: 3
+
+📊 SENTIMIENTO POR HABLANTE:
+  ⚪ DESCONOCIDO: -0.06 (21 segmentos)
+
+🔗 RELACIONES TEMÁTICAS:
+  google ↔ agents: 3
+  google ↔ challenge: 3
+  agents ↔ challenge: 3
+  patrones ↔ sistemas: 3
+  agentes ↔ patrones: 2
+  agentes ↔ google: 2
+  agentes ↔ agents: 2
+  agentes ↔ challenge: 2
+  patrones ↔ google: 2
+  patrones ↔ equipos: 2
+
+📈 ANÁLISIS TEMPORAL:
+  Sección 1: 🔴 -0.12 (TESTIMONIO_GENERAL)
+  Sección 2: ⚪ 0.00 (TESTIMONIO_GENERAL)
+  Sección 3: ⚪ 0.00 (TESTIMONIO_GENERAL)
+  Sección 4: 🔴 -0.15 (TESTIMONIO_GENERAL)
+  Sección 5: ⚪ -0.04 (TESTIMONIO_GENERAL)
+
+💬 CITAS CLAVE:
+
+🔍 CONCEPTOS DOMINANTES:
+  DATA_SCIENCE: 7
+  DESARROLLO_SOFTWARE: 3

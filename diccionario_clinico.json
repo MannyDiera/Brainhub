@@ -1,0 +1,153 @@
+{
+  "ehr_concept": {
+    "sinonimos": [
+      "registro electronico de salud",
+      "medical record",
+      "patient data",
+      "registro electrónico de salud",
+      "emr",
+      "historia clinica",
+      "historial médico",
+      "electronic health record",
+      "historia clínica",
+      "data de pacientes",
+      "hc",
+      "clinical data",
+      "ehr",
+      "hce",
+      "clinical history",
+      "historial medico"
+    ],
+    "categoria": "registro_medico"
+  },
+  "interoperabilidad_fhir": {
+    "sinonimos": [
+      "interoperability",
+      "hl7",
+      "estandar de datos",
+      "estándar de datos",
+      "fhir",
+      "interoperabilidad"
+    ],
+    "categoria": "interoperabilidad"
+  },
+  "diagnostico_clinico": {
+    "sinonimos": [
+      "diagnostico",
+      "diagnosis",
+      "diagnostics",
+      "diagnostic",
+      "dx",
+      "diagnóstico"
+    ],
+    "categoria": "proceso_clinico"
+  },
+  "sintoma_clinico": {
+    "sinonimos": [
+      "sintoma",
+      "symptom",
+      "síntoma"
+    ],
+    "categoria": "proceso_clinico"
+  },
+  "tratamiento_clinico": {
+    "sinonimos": [
+      "tratamiento",
+      "treatment",
+      "terapia",
+      "therapy",
+      "therapeutic",
+      "intervention"
+    ],
+    "categoria": "proceso_clinico"
+  },
+  "paciente_clinico": {
+    "sinonimos": [
+      "usuario de salud",
+      "patients",
+      "paciente",
+      "subject",
+      "patient",
+      "enfermo",
+      "individual"
+    ],
+    "categoria": "sujeto"
+  },
+  "salud_publica": {
+    "sinonimos": [
+      "epidemiologia",
+      "health",
+      "salud publica",
+      "public health",
+      "publica",
+      "health care",
+      "medical",
+      "salud pública",
+      "epidemiología",
+      "salud",
+      "healthcare"
+    ],
+    "categoria": "salud_publica"
+  },
+  "atencion_medica": {
+    "sinonimos": [
+      "atención médica",
+      "atencion medica",
+      "atencion",
+      "care",
+      "cuidado"
+    ],
+    "categoria": "proceso_clinico"
+  },
+  "enfermedad": {
+    "sinonimos": [
+      "enfermedad",
+      "condition",
+      "patologia",
+      "disease",
+      "diseases",
+      "enfermedades",
+      "pathology",
+      "patología",
+      "disorder"
+    ],
+    "categoria": "condicion"
+  },
+  "medicamento": {
+    "sinonimos": [
+      "medicamento",
+      "medicamentos",
+      "farmaco",
+      "fármaco",
+      "drug",
+      "droga"
+    ],
+    "categoria": "tratamiento"
+  },
+  "hospital": {
+    "sinonimos": [
+      "centro de salud",
+      "health center",
+      "clinic",
+      "clínica",
+      "hospitales",
+      "clinica",
+      "medical center",
+      "hospital",
+      "hospitals"
+    ],
+    "categoria": "institucion"
+  },
+  "medico": {
+    "sinonimos": [
+      "médico",
+      "doctora",
+      "physician",
+      "médica",
+      "doctor",
+      "medica",
+      "medico"
+    ],
+    "categoria": "profesional"
+  }
+}

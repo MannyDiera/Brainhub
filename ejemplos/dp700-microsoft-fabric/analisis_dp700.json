@@ -1,0 +1,396 @@
+{
+  "documento": "/data/data/com.termux/files/home/downloads/DP700_Completo_ES.txt",
+  "nicho": "SALUD",
+  "total_segmentos": 914,
+  "total_dialogos": 21,
+  "sentimiento_global": {
+    "polaridad": -0.017,
+    "subjetividad": 0.103
+  },
+  "terminos_clave": [
+    [
+      "datos",
+      294
+    ],
+    [
+      "fabric",
+      140
+    ],
+    [
+      "examen",
+      123
+    ],
+    [
+      "elementos",
+      101
+    ],
+    [
+      "procesos",
+      95
+    ],
+    [
+      "microsoft",
+      93
+    ],
+    [
+      "spar",
+      89
+    ],
+    [
+      "data",
+      86
+    ],
+    [
+      "utilizar",
+      84
+    ],
+    [
+      "trabajar",
+      82
+    ],
+    [
+      "preguntas",
+      73
+    ],
+    [
+      "informacion",
+      69
+    ],
+    [
+      "real",
+      67
+    ],
+    [
+      "importante",
+      67
+    ],
+    [
+      "warehouse",
+      67
+    ],
+    [
+      "sql",
+      60
+    ],
+    [
+      "desde",
+      58
+    ],
+    [
+      "layhouse",
+      56
+    ],
+    [
+      "puedo",
+      56
+    ],
+    [
+      "nivel",
+      55
+    ]
+  ],
+  "sentimiento_por_hablante": {
+    "DESCONOCIDO": {
+      "promedio": -0.017,
+      "min": -0.8,
+      "max": 0.5,
+      "n_segmentos": 914,
+      "confianza": "alta"
+    }
+  },
+  "coocurrencias": [
+    [
+      [
+        "datos",
+        "procesos"
+      ],
+      36
+    ],
+    [
+      [
+        "datos",
+        "data"
+      ],
+      32
+    ],
+    [
+      [
+        "datos",
+        "fabric"
+      ],
+      31
+    ],
+    [
+      [
+        "fabric",
+        "microsoft"
+      ],
+      25
+    ],
+    [
+      [
+        "datos",
+        "microsoft"
+      ],
+      19
+    ],
+    [
+      [
+        "datos",
+        "utilizar"
+      ],
+      18
+    ],
+    [
+      [
+        "datos",
+        "spar"
+      ],
+      17
+    ],
+    [
+      [
+        "spar",
+        "data"
+      ],
+      17
+    ],
+    [
+      [
+        "datos",
+        "trabajar"
+      ],
+      15
+    ],
+    [
+      [
+        "fabric",
+        "utilizar"
+      ],
+      15
+    ],
+    [
+      [
+        "fabric",
+        "trabajar"
+      ],
+      14
+    ],
+    [
+      [
+        "datos",
+        "elementos"
+      ],
+      13
+    ],
+    [
+      [
+        "spar",
+        "utilizar"
+      ],
+      13
+    ],
+    [
+      [
+        "fabric",
+        "elementos"
+      ],
+      13
+    ],
+    [
+      [
+        "fabric",
+        "procesos"
+      ],
+      12
+    ]
+  ],
+  "conceptos": [
+    [
+      "DIAGNOSTICO",
+      109
+    ],
+    [
+      "IMPACTO_FUNCIONAL",
+      59
+    ],
+    [
+      "LESION_DEPORTIVA",
+      13
+    ],
+    [
+      "TRATAMIENTO_MEDICO",
+      2
+    ]
+  ],
+  "analisis_temporal": [
+    {
+      "seccion": 1,
+      "segmentos": 182,
+      "polaridad_promedio": -0.042,
+      "polaridad_min": -0.8,
+      "polaridad_max": 0.5,
+      "contexto_predominante": "TESTIMONIO_GENERAL"
+    },
+    {
+      "seccion": 2,
+      "segmentos": 182,
+      "polaridad_promedio": -0.043,
+      "polaridad_min": -0.8,
+      "polaridad_max": 0.333,
+      "contexto_predominante": "TESTIMONIO_GENERAL"
+    },
+    {
+      "seccion": 3,
+      "segmentos": 182,
+      "polaridad_promedio": -0.006,
+      "polaridad_min": -0.8,
+      "polaridad_max": 0.5,
+      "contexto_predominante": "TESTIMONIO_GENERAL"
+    },
+    {
+      "seccion": 4,
+      "segmentos": 182,
+      "polaridad_promedio": 0.006,
+      "polaridad_min": -0.8,
+      "polaridad_max": 0.5,
+      "contexto_predominante": "TESTIMONIO_GENERAL"
+    },
+    {
+      "seccion": 5,
+      "segmentos": 186,
+      "polaridad_promedio": -0.001,
+      "polaridad_min": -0.8,
+      "polaridad_max": 0.5,
+      "contexto_predominante": "TESTIMONIO_GENERAL"
+    }
+  ],
+  "citas_clave": [
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Yo\nquiero experimentar",
+      "contexto": "ueden hacer.\nSi quieren trabajar\ncomo los campeones similar a los\nvikingos, trabajar solo con con código P\nspar lo puede hacer.\nMientras que antes no",
+      "longitud": 22
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Yo\nquiero experimentar",
+      "contexto": "ueden hacer.\nSi quieren trabajar\ncomo los campeones similar a los\nvikingos, trabajar solo con con código P\nspar lo puede hacer.\nMientras que antes no",
+      "longitud": 22
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Me llegó el cupón y dice que\ntiene que ser antes del 24 de julio, que\nno se utiliza antes de esa fecha queá,\nno se concedá prologar.",
+      "contexto": "l\nvoucher, háganlo. Ya hay varias personas\nque me han dicho que lograron ganar su\nvoucher. Si no saben cómo ganarlo, vean\nel\nprimer video para que pue",
+      "longitud": 132
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "¿Y ahora qué\nhago?\nSi vemos la tabla no existe todavía y\nespero que que la pueda crearamos. Si si\nno la crea es porque pasó algo, digamos,\ny voy a tratar de solventarlo lo más\npronto posible, pero si no literalmente\neh vamos a ver que funcione, pero yo ya\nhabía hecho la práctica para garantizar\nde que esto funcione. Entonces\nregresamos a nuestro Wordpace y ahora\nvamos a utilizar un PAN para orquestar.\n¿Qué significa orquestar? Literalmente\nes el que ejecuta el proceso de\ntransformación, que en este caso el\nproceso de transformación es un Darafow\ngeneración 2. Entonces creamos un line\ny dentro de este people nosotros vamos a\nejecutar el data flow.\nEntonces creamos un people activity\nel activity de data flow.\nEntonces, esto como tal va a llamar al\ndata flow que hemos creado, que es el\nDaraflow generación 1, bueno, generación\ndos, perdón. Y es el Daraflock 1. Si\nnosotros le hubiéramos puesto patito,\nasí se llamara. Entonces, ¿qué hace este\nDaraflow? internamente llama el datafow\ncon carga el archivo en memoria, agrega\nla columna y va a reemplazar o a crear\nla tabla en el layhouse y vimos que no\nexistía.\nEntonces le damos guardar\ny lo vamos a correr.\nSi todo está bien, que espero que sí\nsea,\npero las cosas pasan porque estoy en\ndirecto y le voy a echar la culpa a\nMicrosoft.\n No vamos a tener la tabla.\nSi hay dudas o preguntas, ahorita estoy\nviendo el chat.\nRecuerden que generación 2 es\nbásicamente power query, pero potenciado\na gran escala. Por eso es que es\nbásicamente PowerB\nque ahora lo metieron para procesos e LT\nvisuales.\nPor eso es que cuando yo les decía los\ncriterios de ingestión, si queremos\ncódigo bajo, si queremos canvas,\nbásicamente eso estamos viendo acá.\ntodavía no ha terminado.\nSi hay dudas o pregunta, ahorita estoy\nY muchas gracias a los que están\nconectados,\nque hoy somos pocos.\n\nOkay, ya terminó. Vamos a nuestro\nLayhouse\ny acá vamos a refrescar\ny ya vemos\nla tabla delta que creamos con el Pilam.\nEntonces, de esta forma ya hemos visto\ndos métodos. Hemos hecho un proceso con\nspar, hemos hecho un proceso\nliteralmente con\ncon Darafón 2. Y ahora\nvamos a ver un proceso completo con\nPilance.\nVoy un poco rápido, pero si ustedes\ntienen preguntas, con gusto las\ncontesto.\n¿Y qué vamos a ver ahora? Vamos a ver la\ningesta\ncon Dara Pilap,\nque este es el link y yo se los envío.\nSe los voy a enviar tanto acá\nen el chat.\ny se lo voy a enviar en WhatsApp cuando\ntermine la clase. Entonces, estamos\nreutilizando básicamente ya nuestro\nWordpace, nuestro layho único que\nestamos haciendo básicamente\ntransformaciones con diferentes\nherramientas. Entonces regresamos a\nnuestro Wordpace y en este momento\nnosotros vamos a trabajar\ncon Pilant.\nEntonces, dentro de el layhouse vamos a\ncrear un subfolder acá\ndonde va a caer los datos\ny regresamos al WordPace. Veamos, si\nobservamos esto está vacío y el objetivo\nes hacer un proceso de ingesta\ndirectamente desde Pilance. Entonces\nregresamos al Wordpace y vamos a agregar\nun nuevo items de tipo Pilance.\nY vamos a hacer Pilant activity\ny vamos a utilizar el famoso copy data.\nEntonces, el copy data como tal es lo\nmás potente que tiene Data Factory\ny su focus es la ingesta.\nEntonces nosotros podemos conectarlos\ncasi a cualquier origen de datos.\nY acá nosotros vamos a generar una nueva\nconexión.\nLe damos process all y aquí vamos a ver\ntodos los tipos de clientes\ncon la que podemos trabajar.\nPodemos trabajar con databars, podemos\ntrabajar con ODATA, con Oracle.\neh con one late, es decir, hay un montón\nde origen de datos, pero en este caso\nnosotros vamos a trabajar con una fuente\nHTTP\ny lo que vamos a hacer es que en ese\nhay un archivo que tiene las ventas,\nél ya identifica que yo creo una\nconexión, él no la va a volver a crear.\nEso es importante. ¿Por qué? Porque\ncuando nosotros los conectamos a una\nfuente internamente\nhay una conexión que se crea y que se\ncomparte en todo el entorno de Fabric y\nel objetivo no es tener 1000 conexiones.\nEntonces, le damos conectar\ny acá nosotros vamos a trabajar con un\nformato binario, aunque este sea un CCV.\n¿Por qué? Yo podría aquí trabajar con un\narchivo delimitado, trabajar con Excel,\nes decir, puedo trabajar con el formato\nadecuado, pero lo que yo necesito es\nhacer una copia binaria.\nacá en el destino, básicamente\nle decimos que vamos a ir a Layhouse que\ncreamos,\n¿no? Aquí lo estoy, aquí estoy creando.\nEntonces, vamos a buscar el Layhouse,\nque es este,\ny vamos a trabajar con archivos. ¿Por\nqué?\nPorque no estamos creando una tabla\ndelta, sino que estamos haciendo una\ncopia binaria, es decir, estamos\ntrayendo información de tipo rack data.\nél me va a pedir que busque en el\nlayhouse dónde lo voy a depositar y lo\nvoy a depositar en nueva data.\nLe damos okay y acá le vamos a poner\nsailores.csv.\nEntonces acá literalmente estamos\nconectándolo a la fuente de datos que\nestá en HTTP. Posteriormente\nestamos enviando esta información al\nLayhouse y él está extrayendo la\ninformación.\ndesde nuestro entorno de origen de\ndatos. Entonces acá si nosotros le damos\ncorrer,\nva a hacer la copia.\nY aquí es algo importante porque los\nprocesos de transformación ingesta no es\nsimplemente copiar los datos, sino que\ntambién dependiendo la forma en que\nnosotros trabajamos, si trabajamos con\narquitectura, medallones, nosotros\npodemos hacer un montón de procesos para\nllegar a un modelo de datos. Entonces,\nen esta práctica, literalmente nosotros\ncopiamos la información y posteriormente\nla transformamos\nde un binario a una tabla delta.\nEntonces, para continuar con todo el\nproceso de transformación, nosotros\nvamos a crear un notebook y ese notebook\nlo vamos a crear en nuestro Wordpace\ny vamos a a\ngenerar\nuna tabla delta a partir\nde la información.\nEntonces tenemos esta\nacá\nque esto literalmente se puede convertir\nen un parámetro\nque acá tenemos las opciones. Quiero ver\ny acá si lo seleccionamos\nse convierte en un parámetro. La\npráctica dice que este sea un parámetro\npara poder cambiar el nombre de la tabla\nque estamos trabajando. Por cuestiones\nde tiempo no lo vamos a hacer así, pero\nacá lo configuramos como parámetro.\nAhora vamos a agregar el código\nque hace el proceso de transformación.\nEntonces, esto es, digamos que lo que\nnosotros pudiéramos llamar el proceso\nsilver. Entonces el proceso silver lo\nque hace es limpiar los datos,\ntransformarlos y dejarlos en un formato\nen que nosotros podamos hacer consulta,\nque básicamente sería eso. Nuevamente\nagregamos o vinculamos nuestro\nlayhouse para poder utilizar rutas\nrelativas.\nLo voy a guardar\ny regreso al Pilant.\nY ahora sí, yo puedo venir y\nya me llevé el archivo,\ntransformarlo.\nEntonces agrego el notebook.\nY lo que vamos a hacer es que el\nnotebook lo vamos a llamar desde el\nPiland para hacer nuestro proceso de\ntransformación que es el Notebook 2.\nEntonces, ¿qué estamos haciendo? El\nPeland literalmente extrae la\ninformación del origen de datos, la\ntransforma\npor medio de un notebook a una tabla\ndelta que puede ser nuestro silver y ya\nes consumible\ndesde Power BI, desde el NP, el SQL,\netcétera. Pero hay algo importante.\nSi nosotros no limpiamos, que eso es\nextremadamente importante,\nposiblemente dupliquemos información.\nEntonces vamos a agregar un paso\nadicional\nantes de generar nuestro proceso de\ndonde vamos a limpiar la carpeta que\nestamos extrayendo para que siempre\ntenga la última versión.\nEntonces, agregamos esto\ny esto lo que hace es conectarse a\nLayhouse,\nque aquí lo seleccionamos.\nSi hay preguntas, con gusto lo podemos\nver.\nVoy rápido por cuestiones de tiempo y\nacá vamos a borrar\nlos archivos\nque estén en new data.\nElcar es porque no sabemos\nqué archivos vamos a tener,\npero sabemos que literalmente van a ser\nCSV. Entonces, cuando nosotros\nutilizamos Wcard es porque no sabemos lo\nque va a haber, sino que buscamos un\nformato de archivo para poderlo\neliminar.\nEntonces acá él se conecta a new data,\nél borra los SV. Posteriormente que él\nborra los SV dice,",
+      "contexto": "ro básicamente\ndejémoslo como está. Ustedes pueden\ntravesear después. Y ahora que ya\ntenemos eso,\nliteralmente,\nahora vamos a a\nejecutar\neste data flo",
+      "longitud": 7879
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Y cuando iba a ver la infraestructura,\nbásicamente era una máquina,\nuna máquina tirada en la esquina\ncorriendo Integration Service y\npidiéndole a la Virgen María pan y agua\npara poder correr. Y me decían,",
+      "contexto": "abric no tienen\npresupuesto. Y eso es un fenómeno que\nsiempre ha existido con Microsoft. ¿Por\nqué? Porque literalmente\nyo iba a bancos en El Salvador",
+      "longitud": 204
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "iba a ver el servidor de informática 30\nveces más recursos\nque el que tenía Integration Service. Lo\nmismo pasa acá. Entonces, uno tiene que\naprender a ser mago y literalmente el\nmonitoreo y la optimización\nes básicamente un plan que ustedes deben\ntener en cuenta para poder eh lograr\nbuen rendimiento, reducir riesgo de\ncorrupción o pérdida de datos. Eso es\nimportante porque\nen el caso de Fabri es que digamos hay\nhay un problema común cuando ya te\nacabas el capacit\ny ya no puedes hacer nada. Recordemos\nque el capacity es una estructura que si\nes un costo fijo, pero que literalmente\nse distribuye\npor todos los servicios que lo usan.\nEntonces, si nosotros no utilizamos\nadecuadamente,\nva a haber una mala experiencia del\nusuario. ¿Por qué? Porque yo conozco\ncasos en que literalmente hicieron la\nmigración a Fabric\ny dijeron,",
+      "contexto": "ra,\nbásicamente era una máquina,\nuna máquina tirada en la esquina\ncorriendo Integration Service y\npidiéndole a la Virgen María pan y agua\npara poder c",
+      "longitud": 829
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "y se les olvidó de que el modelo\nsemántico ahora que ya no tienen\nanálisis service come el capacity y que\nva a competir contra los dashboard y\notros elementos\nque que están utilizando ese capacit.\nEntonces es importante entender dónde\nhay cuellos de botellas y cómo maximizar\nesa distribución. ¿Por qué? Porque uno\npuede gobernar\ntodos esos elementos. También configurar\nalertas automatizadas. Eso es\nbásicamente\ncomo decimos acá, matar el perro a\ntiempo.\nPero no lo digo así vulgar, digamos, o o\nofensivamente para los que protejan los\nanimales, sino que es vamos a evitar que\nllegue la rabia\no que los enfermemos. Y básicamente aquí\ntambién influye eso. Entonces monitorear\nestas soluciones. ¿Y qué vamos a\nmonitorear? Yaamos. Y aquí honestamente\nes bastante complejo. ¿Por qué? Porque\ncuando nosotros hablamos de fabric\nque\nhacemos es es vender el concepto de end.\n¿Qué significa esto? Usted quiere volar,\nuse Fabrica. Usted quiere hacer magia,\nuse Fabri. Usted quiere\nteletransportarse y convertirse en super\nsalín, como tú use Fábrica.\nEntonces, ¿qué significa eso? Significa\nque literalmente ese úselo\nhay que utilizarlo adecuadamente. ¿Por\nqué? Porque no es simplemente crear data\npilots, dar flow, modelos semánticos,\nsparot, notebook, layohouse, el\nstreaming, sino que eh bueno, y aquí\nentra también la parte del warho sino\nque literalmente\nmuchas veces se los olvida de que\nsiempre hay una trampa y no le llamo\ntrampa porque honestamente es lo que uno\ncompra.\nEntonces, siempre hay una trampa que\nel marketing no lo dice.\nEl hecho que ustedes tengan un costo\nfijo no significa que pueden hacer\nfiesta en cada segundo. Y ahí es donde\nentran los conceptos de monitoreo y\nauditoría.\n¿Por qué? porque no se pueden dar el\nlujo de crear procesos o no optimizados\ny que se coma capacity. Entonces es\nimportante entender la distribución\nde cómo están nuestros objetos dentro de\nnuestro Wordpace, dentro de nuestro FF y\ntenemos que ver cada uno de estos\nelementos.\nEntonces, hay que identificar,\nrecolectar datos\ny resolver problemas. ¿Para qué? Para\noptimizar.\nEntonces, básicamente el tener un\nWordpace o tener un fabric no significa\nque no tenga que estar monitoreando,\nque no tenga que estar colectando datos\ny analizando datos. Y si encuentro\ncuellos de botella, no significa que lo\nvoy a patear debajo del del colchón,\nsino que yo tengo que optimizarlo. Y\npara ello es es importante entender\nel modelo arquitectónico que nosotros\nutilizamos.\nY ese modelo arquitectónico, básicamente\nuno lo ve eh de diferentes formas.\nAl final nosotros eh podemos monitorear\ncon el monitor hub de fabric y\nentender cómo funciona cada objeto, es\ndecir, ver los costos de un semantic\nmodel, ver los costos de un pyon, ver\nlos costos de un darflow generación dos.\nEs decir, no solo me voy a basar en el\nhecho de cuánto puede tardar, porque eso\nes la métrica más sencilla,\nsino que hay que ver todos los elementos\nque los permite Fabric. Y los voy a\nmostrar así muy rápido para que vean que\nliteralmente una de las ventajas de\nFabric es que ustedes no necesitan una\nherramienta de terceros para poder\nmonitorear, sino que automáticamente eso\nviene incluido\neh directamente en fábrica. Y sí,\ndigamos, el monitor hog\npara ni para todos los usuarios. Hay\nciertas características de que si\nustedes no son nivel admit no pueden ver\nnada. Es más, yo tenía mi fábric con el\nque hice la demo, creo que fue la semana\npasada\ny yo no era administrador, entonces no\npodía ver el Wordpace del Admit de\nFabric donde hay un montón de reportes\npredefinidos\npara poder monitorear\nel WordPress.\nY eso es importante porque ustedes\ntienen fabric y muchas veces cuando\nnosotros hacemos escenarios de pruebas\nno podemos ver todas las funcionalidades\ny no podemos decir esta herramienta\nexiste. Entonces es importante entender\nque muchos de estos elementos no están\nhabilitados por el perfil del usuario\ncon el que los logamos y para ello\ntendríamos que entrar en un detalle muy\nextenso que se que se ven en los cursos.\nVemos, en este caso voy a mostrar las\nherramientas,\npero a nivel de seguridad, a nivel de\nperfiles, posiblemente ustedes no lo\nvean si han creado un fabrical capacity,\nporque ustedes básicamente\npertenecen a alguna organización y la\norganización por A o por B motivo tiene\nuna suscripción de Office que les\npermite crear fabric,\ndigamos. ¿Por qué? porque hay\nsuscripciones\nque no permiten crear el el fabrical\ncapacity y eso es importante, ¿verdad?\nPorque desgraciadamente\nesta herramienta necesita\neh suscripciones\nque no sean de que no sean de email,\nsino que necesitan suscripciones donde\ntengan un tel, donde exista un entry ID,\netcétera. Entonces, esto no es una\nherramienta\neh\ntan simple de configurar si no tenemos\nel licenciamiento adecuado. Vamos,\nmuchas personas dicen,",
+      "contexto": "a experiencia del\nusuario. ¿Por qué? Porque yo conozco\ncasos en que literalmente hicieron la\nmigración a Fabric\ny dijeron, \"No, vamos a eliminar\nanáli",
+      "longitud": 4762
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Pero todos\nestos elementos no son tan triviales\nporque no van a estar habilitados por\ndefecto cuando los otros hacemos eso.\nEntonces, al menos voy a intentar\nmostrárselo. Y estuve validando y yo\ncasi no tengo métricas, no tengo nada de\nmétricas porque mi Wordpace, mi trial es\nrelativamente nuevo, pero básicamente\nnosotros tenemos herramientas dentro de\nFabricar\ny hacer un monitoreo.\nAhora bien,\ndentro de estas herramientas, eh, y esto\nsi es para administradores, ¿por qué?\nPorque me tocó habilitarlo\neh dentro del portal de Office 365\nen el Admit Center, hacerme fabric admit\npara poder ver eh estos reportes, porque\nyo creé mi Fab Trial y no tenía acceso y\ndecía, ¿por qué noamos? Y y literalmente\nnunca he tenido acceso hasta el día de\nhoy porque yo soy administrador del de\nmi suscripción de Office 365.\nEn las organizaciones donde yo estaba\ntrabajando no tengo ese perfil y no\npuedo verlo. Entonces hoy lo configuré\nrápido para poderles mostrar eh estos\nelementos y que se hagan la idea de lo\nque ustedes tienen directamente en el\nWordPace. Puede ser que ustedes no lo\nvean, pero la herramienta existe.\nEntonces, eh vamos a hacer la la demo.\nSe lo voy a mostrar. Bueno, no es una\ndemo, básicamente es es mostrarle mi\nfabric. Entonces, eh voy a a\nmostrarles mi fabric.\nLo primero,\nyo soy un usuario que me cree de de mi\nOffice 365 y muchas veces nosotros\nentramos al Army Portal y de entrada\nveamos eh acá estoy mostrando un perfil\nque básicamente es un administrador.\nEntonces, muchos de estos elementos\nustedes no lo van a ver. Ustedes no van\na poder configurar\nmuchas características de eso por el\nnivel de seguridad que necesitan. En\neste caso, yo soy Fabric Admin y por eso\npuedo ver un montón de opciones. Ustedes\nlo van a ver posiblemente en el material\ny no lo vean en su suscripción porque no\nson admin. Entonces, algo importante,\npor lo menos este caso, nosotros tenemos\nesta opción del monitor y creería que\ncon un\ncon un contribur, creo yo, que pueden\nverlo. Entonces, en el monitor ustedes\ntienen eh por defecto todo lo que\nejecuto.\nEntonces ustedes pueden ver esto\nelemento, pueden\nentender\neh básicamente algunas métricas\ny pueden estar monitoreando y crear\nalertas para poder e monitorear\nadecuadamente\nla parte del del fábrico.\nEntonces, cada vez que ustedes hacen una\nejecución, ustedes pueden monitorearlo.\nAquí hay datos sencillo, hora de inicio,\nsi terminó, no terminó, si generó error,\netcétera, digamos, si pueden hasta\nrecorrer eh de nuevo las ejecuciones,\npueden eh crear notificaciones.\nY algo muy importante, digamos, esto es\nque posiblemente quizás es el nivel que\npuedan ver ustedes, pero que\nliteralmente hay otro nivel donde\nMicrosoft cuando lo vamos a WordPace\nhay una opción que se llama Admit\nMonitor, que es el la imagen que yo les\nmostré. Entonces, en este Admin Monitor,\nliteralmente Microsoft ya preparó\neh ciertos elementos o ciertos reportes\nque ya se pegan directamente a su\nsuscripción,\nno se pegan a otra suscripción, sino que\na la suya y presentan información. En\neste caso, como esto es nuevo,\neh, y literalmente no tengo datos,\nentonces no podemos filtrar por fechas y\nno podemos ver literalmente el digamos\nel el la funcionalidad de la metadata\nque ya los da el mismo Fabric para poder\nmonitorear y analizar nuestros eh\nnuestro inventario. Bueno, en este caso\npor lo menos puedo ver un poco del del\ninventario donde yo tengo básicamente\ndos WP y en estos dos WP dice que el 20%\nson LH, el 20% son pilants\ny puedo ver información. Tengo un total\nde 20s, algunos eh\nvamos a quitar,\npodemos agregar, bueno, ahorita no tengo\nmucho para poder navegar, pero estos\nelementos literalmente ya vienen\nincluido\nsi sos administrador\ncon fábrica.\nEstamos elementos de por view haw,\nelementos de one late catálogo.\nEntonces, eh esto les ayuda a ustedes a\ncumplir el proceso de monitoreo y\nencontrar elementos que les apoyen en la\ngestión y la administración.\nEsta\npregunta es muy interesante. ¿Cuál es la\nconfiguración más crítica? quería\nrevisar en Fabric Admit Porto. Esta es\nuna pregunta compleja,\nhonestamente, porque\nno sé cuál es el lineamiento de\narquitectura\nque van a implementar, digamos, cuando\nustedes implementan Fabric,\nhay un elemento de arquitectura.\nEntonces, a partir de los lineamientos\nde arquitectura,\nuno genera matrices de riesgo.\nen esas matrices de riesgo\ny elementos de de gobernanza,\nustedes definen\nqué es lo más crítico.\nEntonces, eso va a depender mucho del\nmodelo arquitectónico de la matriz de\nriesgo que ustedes implementen, porque\npara mi caso, literalmente con solo\ntener el 2 mfa activado, ya me garantiza\nque nadie, bueno, teóricamente si no me\nclonan el teléfono me garantiza de que\npor lo menos mi fabric está protegido a\nnivel de loin. Recuerden que hay varios\nniveles de seguridad.\nEntonces, esos niveles de seguridad son\nel cumplimiento de las políticas que se\ngeneran a nivel de seguridad y también\ntienen que tomar en cuenta los SLA.\nEntonces, eh para poderte decir eso, yo\ntendría que ver tu modelo arquitectónico\ne la matriz de riesgo, los niveles de\nLSA\npara poder decir esto es la\nconfiguración de seguridad que tenés que\nanalizar inicialmente.\nEntonces va a depender mucho de cómo\nustedes lo definan arquitectónicamente\ny cómo los componentes se van a\nintegrar. ¿Por qué? Porque dentro de\nesto puede ser que yo me integre con\nAWS, me integre con Osi de Oracle o me\nintegre con Google e o configure Priva\nEnpoint\no literalmente\neh, no sé, digamos,\ngenere\nel que mi fabrican\nser visualizados. Es decir, acá es\nimportante entender el concepto y la\nusabilidad, los tipos de usuarios, el\nnivel de protección de los datos. Hay\nque hacer un inventario de básicamente\nde los datos para ver qué cumplimientos\nnormativos de protección propio de los\ndatos, de protección propio del acceso,\nde protección propio la plataforma, de\nprotección en la integraciones\ncon terceros, es decir, hay un montón de\nelementos que va a depender mucho del\nmodelo arquitectónico y de integración\nde componentes.\nAhora bien, veamos esto, bueno, creo que\nlo menciono más adelante en la parte de\nseguridad. Ahora, ¿cómo optimizar estas\nsoluciones analíticas?\nEstas soluciones analíticas,\nuno tiene que pensar en que compartimos\ntodo, es decir, tenemos un pastelito y\nel pastelito no me lo puedo comer yo\nsolo. Entonces, hay varias áreas claves\npara esto. Primero yo me enfoco en la\nparte del almacenamiento,\nen la parte del layhouse, data warehouse\ny bases de datos. ¿Por qué? Porque\nnosotros podemos tener bases de datos\nSQL dentro de fábric. Entonces, esto\ncomo tal van a utilizar recursos\ndel capacity\ny quizás la parte más crítica es la\nparte de los spartos.\n¿Y por qué la parte más crítica? Porque\nsi ustedes utilizan,\ndigamos, de una forma adecuada los nodos\nspar, se comen el capacity.\nVeamos, se comen el capacity y\nliteralmente se quedan sin poder hacer\nconsultas en el layout, sin poder ver\nreportes, sin poder hacer nada. Si su\ncapacity se se lo comen los padres. Si\nustedes son de esos traviesos y dicen,",
+      "contexto": "entry ID,\netcétera. Entonces, esto no es una\nherramienta\neh\ntan simple de configurar si no tenemos\nel licenciamiento adecuado. Vamos,\nmuchas personas",
+      "longitud": 6973
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Y literalmente ese nodo\nextra large no puede ni con el capacity,\nporque recuerden que cuando uno\ninstancia los nodos de spar eh utiliza\nlos los bicor, entonces esos bicoros\ncore que tiene el capacitor eh se los\ncome. no es solamente memoria RAM, sino\nque hay elementos de cors que uno tiene\ny entonces dentro de los que yo\nconsidero que es más crítico en la parte\nde la optimización es en el uso de los\nspar\nporque\nacá es donde yo he visto el mayor fallo\ny la parte del procesamiento de los\npilon y los de los even Street. Tomen en\ncuenta de que\nmuchas veces\nnosotros pensamos en que que podemos\nprocesar un montón de procesos en\nparalelo y no es así.\nVeamos, acá hay que pensar en cuántos\nporciones de pastel\npuedo yo\nconfiar. ¿Por qué? Porque literalmente\neh puede ser que con spar no tenga ocho\nocho porciones, solo tenga tres, pero\ncuando levanto pilants tenga ocho o\ncuando hago string tenga tres. Entonces\nes bastante complicado. Y recuerden que\ntodo se conecta a través del one late y\ntodo es un motor unificado\ne\no una capacidad compartida. Es decir, el\ncarro es el mismo para todos.\nSi si habemos cinco gorditos\ny y y decimos que con el con flacos\ncaben siete, solo cabemos cinco gorditos\nporque los cinco gorditos ocupamos más\nespacio. Entonces, en el concepto de\nfabricar\nen cuenta que no todos los recursos\nson iguales y el recurso que yo digo que\nobserven mucho son los spa.\nY quiero ver\naquí me hacen una pregunta. Veamos.\n¿Cuál es el ajuste básico en Fabric\nPortal que ayuda a mejorar el\nrendimiento de las soluciones\nanaláticas?\nEsta es una pregunta imposible de\ncontestar.\n¿Por qué? Porque si ustedes me dicen que\nutilizan una arquitectura de Medor y\nsolo se basan en Spark, lo que tienen\nque optimizar es la configuración de los\nnodos spark.\nSi ustedes me dicen si que yo utilizo\nPilance\ny básicamente utilizo warehouse para mi\ntransformación, posiblemente la\noptimización debe estar en el warehouse.\nY vuelvo a a a llegar a lo mismo, todo\ndepende de la arquitectura y el modelo\nde procesamiento.\n¿Por qué? Porque hay algunos que que han\ntrabajado en\ndigamos en Darabic y Darabri es full\nfull spark\ny recientemente se está adoptando\nbastante la parte de de de SQL o la\nparte del warehouse en en Darabrit.\nEntonces, cuando nosotros eh\ntrabajamos acá, es importante entender\nel modelo arquitectónico, entender de\nque el modelo arquitectónico\nsu piedra modular o es la computación\nspar o es la parte del darawarehouse o\nes la parte del.\nEntonces, por eso es que la optimización\nno es un proceso genérico,\npero sí tenemos tres elementos que\npodemos estar tomando en cuenta\ny vamos a analizar, vamos a monitorear\nporque puede ser de que literalmente\nhasta la utilización de una librería de\nPP par puede ser el problema.\nY eso es importante porque literalmente\neh el trabajar con conceptos eh open\nsource les permite poder cambiar\nprocesos y optimizarlos posiblemente con\nalgunas configuraciones de Spart o con\nla utilización de otras librerías\nque no son propias de Spar.\nEs más, yo he visto casos donde\nliteralmente no utilizan spar en Fab,\nsino que utilizan pandas y pandas\ndesde mi punto de vista para el bita, es\nmalísimo.\nEs malísimo.\nhay que entender varios elementos que\npara poder decir, señores, mi problema\nno es mi capacity, mi problema no es la\nconfiguración de de modelos spar, sino\nque es mi modelo de programación.\nEs más,\neh el hecho de de poder trabajar con\ndiferentes herramientas, con computación\ncomo es R. Amos,\nyo hice hecho pruebas\neh de conceptos de modelos estadísticos\ny modelos de machine learning donde se\ncomparan, digamos, algoritmos de R\nversus algoritmos de Python\ny literalmente hay una diferencia\nvispal,\ndigamos, aunque la herramienta la\nsoporte, el modelo o o el lenguaje de\nprogramación influye también en la parte\nde la optimización.\nEntonces, aquí es importante entender\neh que literalmente vamos\ntodo puede influir y como dicen acá,\nincluso\ndice acá, incluso se puede tomar en\ncuenta el factor humano para que el\ncapaz esté siendo algo compartido de\nintegrante, ¿sí? Digamos, el el si yo no\npuedo gestionar bien\nmi sesión,\nyo me como la capacidad para los otros\nusuarios. ¿Por qué? Porque así como\ndije, yo tengo el pastelito y ahí el el\ncomelón, el gordito,\nvino y agarró tres pociones y éramos\nocho. Me comí las tres porciones de dos\nporciones de otras personas y ellos se\nquedaron sin pastel.\nEntonces es bastante complejo todos\nestos elementos porque hay que entender\nel modelo de programación y cómo se\ndistribuyen los recursos.\nAhora bien, dentro de la optimización\ndel almacenamiento hay varias técnicas.\nParecen técnicas sencillas,\nhonestamente, pero no lo son.\nVeamos, cuando nosotros trabajamos con\nLayhouse, eh el hecho de de utilizar\ncomando, el comando optimiz,\neh la parte del compactation y el Z\norden puede cambiar la forma en que\nustedes acceden literalmente a los\nstorage o al one late y extrae la\ninformación.\nIgualmente la parte del cach y el\npartitional es importante. ¿Por qué?\nPorque no es lo mismo escanear\neh 100 objetos a escanear 10 objetos.\nEs muy similar a la base de datos. Es\ndecir, el hecho de poder tener índices,\npoder particionar y poder tener encaché\npuede cambiar el resultado de una\nconsulta.\nIgualmente en la parte del Dara\nWarehouse. El Dara Warehouse como tal,\nrecuerden que es una versión optimizada\npara fabrica y se basa literalmente en\nutilizar\nspark, pero no es el spark convencional,\nsino que hay una especificación, hay un\nNG que fue creado por Microsoft que se\nbasa en spark. Entonces, muchos de estos\nelementos por debajo son modelos de\nbita, pero internamente tenemos muchos\nconcepto de SQL. ¿Por qué? Porque\ntenemos elementos de optimización\ncomo los colon store index para hacer\nconsultas más eficientes. Pero un colong\nstore index es muy bueno y puede ser\nextremadamente peligroso\ncuando trabajamos con entornos.\ncompartidos.\n¿Por qué? Porque literalmente si yo\nmanejo terabyte de información y tengo\nuna capacity chiquitito,\nuna consulta, me va a bloquear todo.\nEntonces aquí es importante entender\nentender las distribuciones, que eso es\nimportante, digamos, porque los modelos\nde particionamiento, el modelo de\ndistribución, la forma en que los nodos\ninternos procesan es es importante,\ndigamos. Y una de las cosas que que yo\nmás odiaba en de ASU es el modelo de\nparticionamiento.\n¿Por qué? Porque si ustedes definían una\nestrategia inadecuada de\nparticionamiento, aunque fuera un modelo\ndistribuido,\nno funcionaba el concepto que yo iba a\ntener un nodo, dos nodos, tres nodos\nprocesando una consulta. Si básicamente\nen una distribución\ndesbalanceada, literalmente yo me iba a\ncomer el los recursos porque el 90%\nestaba en un nodo, lo mismo pasa acá,\ndigamos. Aunque yo pueda particionar,\naunque yo pueda hacer elementos, hay que\npensar en elementos de particionamiento\nbalanceado.\nY eso es muy relativo porque tienen que\nentender no solo los campos con los que\nvan a hacer consulta, no solo los campos\nque van a hacer la distribución, sino\nque entender el modelo estadístico\nde las propias estadísticas que tiene el\nSQL Server. ¿Por qué? Porque SQL Server\nse basa mucho en ese modelo estadístico\npara crear planes de ejecución adecuada.\nY lo mismo pasa acá.\nEntonces, otros elementos eh para poder\noptimizar son los pilants.\nY literalmente los payons desde mi punto\nde vista eh hay que tenerlos\nadecuadamente.\n¿Por qué? Y y esto pasa mucho con\nmodelos transaccionales de alto flujo\nque nosotros tratamos de hacer volcados\nde datos\nde cientos de terabyte. Bueno, cientos\nde tradentos de gigas que que es lo que\nyo he visto\ny\ntratar de de procesar todo de una sola\nvez. Entonces acá hay que entender bien\ny tratar de aprovechar el por elismo,\ntratar de utilizar cargas incrementales\nen vez de cargas completas,\neh configurar los triggers\neficientemente, más que todo para la\nparte del tiempo real.\ny tratar de optimizar\ntanto el los spar\neh en conceptos de de delimitar\nsu su autoescalamiento. ¿Por qué? Porque\nnosotros cuando trabajamos con\narquitecturas de big data o\narquitecturas distribuidas,\nbásicamente nosotros\neh podemos decir,",
+      "contexto": "tas en el layout, sin poder ver\nreportes, sin poder hacer nada. Si su\ncapacity se se lo comen los padres. Si\nustedes son de esos traviesos y dicen,\n\"N",
+      "longitud": 8045
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Ah, voy a publicar mi\nmi espacio de trabajo de fabrico,\nNo\nhay que cumplir los lineamientos\ntanto\nlegales,\nnormativas\ndel país, que eso es importante porque\nhay ciertos elementos normativos que te\ndicen,",
+      "contexto": "os keep,\ndigamos, es un servicio externo, se\nutilizar service principal.\nhonestamente, digamos, hay hay varios\nelementos\nque hay que tomar en cuenta a",
+      "longitud": 203
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Pero en teoría,\nteóricamente, según el material de\nMicrosoft, no hay penalización\ny los exámenes eh pueden durar 100\nminutos dependiendo del tipo de examen\nque van a realizar.\nAlgunos son de opciones simples,\nopciones eh múltiples,\neh\narrastrar\ny en algunos casos no es simplemente\narrastrar, sino que arrastrar con un\norden lógico. Es decir, cuando ustedes\nestán estudiando, posiblemente van a ver\nalgún proceso donde el mismo material\nles diga,",
+      "contexto": "ativo porque cómo\ncalculan realmente el puntaje solo Dios\nlo sabe. \nHay veces he pasado exámenes y Dios ha\nsido el que ha puesto la mano porque yo\ndig",
+      "longitud": 446
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Posteriormente crean el\nstorage acá, de ahí agregan los\npermisos. Es decir, esos elementos y\nesas preguntas son bastante complejas\nporque eso implica que ustedes han\nejecutado la tarea que les están\npidiendo.\nY de las cosas que yo más odio en las en\nlos exámenes son los famosos casos de\nestudio. ¿Por qué?\nPorque literalmente es un problema real\nque ustedes van a leer y posteriormente\nles van a dar preguntas\npara poder aplicar\nla mejor acción. ¿Y por qué la mejor\nacción? Porque en algunos casos hay\ntrampas donde posiblemente hayan dos o\ntres respuestas\ny las tres sean válidas, pero hay una\nque es la más optim.\nEs importante tomar en cuenta también\nque los exámenes muchas veces no se\ncontestan y no se pasan por tener un\nconocimiento literal.\n¿A qué me refiero con un conocimiento\nliteral?\nEh, de que\nhay muchas veces que uno puede encontrar\nla pregunta\ntomando el sentido común.\nDice acá, básicamente la medida de\npreguntas, ¿son buenas? Eso vi en la\npráctica. H, son así o bueno, eso vi en\nla práctica. No entendí mucho tu\npregunta. No sé si la puedes formular un\npoco más. Lo que sucede es que\naquí es y y yo he hecho exámenes de\nOracle, exámenes de AWS,\nexámenes de Darab, más que todo lo\ngratis porque son caros. exámenes de\nMicrosoft y todos tienen un patrón\ny el patrón es que uno inicia pensando\nen el descarte\ny ¿qué significa el descarte? Digamos es\ncomo que ustedes les hagan una pregunta\ny hay una respuesta que es completamente\nilógica, es la primera que descartan.\nEntonces, si ustedes tienen cuatro\nopciones de respuestas, si ustedes\ndescartan una, la probabilidad de\npegarla es de 75%.\nEntonces, posteriormente ustedes\ncomienzan a leer de nuevo la pregunta y\nencuentran patrones\nde de esas tres posibles respuestas y\ncomienzan a descartar otra. Ya, ¿cuándo\nquedan? ¿Con el 50%\no la o o la saben 100% o le apuestan\na al lograr pegarle por suerte? Y no\ntengan miedo de decir,",
+      "contexto": "ar, sino que arrastrar con un\norden lógico. Es decir, cuando ustedes\nestán estudiando, posiblemente van a ver\nalgún proceso donde el mismo material\nle",
+      "longitud": 1896
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Esta tiene más\nsentido y esta no.",
+      "contexto": "vida,\nya estoy viejo.\nEntonces, antes cuando estaba joven yo\ntenía una memoria mucho mayor. Hoy no.\nHoy literalmente trato de de pegarles\nlas respuest",
+      "longitud": 33
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "No voy a\npasar y paso.",
+      "contexto": "que les deje el\nexamen. Entonces, tengan mucho cuidado\ncon eso.\n¿Y cómo se califica el examen? Veamos,\nesto es algo complejo y yo no lo\nentiendo, hon",
+      "longitud": 22
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Aguanta estudiar también\nescuela, pero este caso práctico de\nfábrica.",
+      "contexto": "abajo hay como un chequecito,\ncomo revisar, esa pregunta ustedes\npueden regresar después a revisarlas,\npero aquellas que no tengan eso, tómense\nquizás",
+      "longitud": 69
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "My English is\nvery\nhablo muy mal inglés. Can you write you\nquestion please?",
+      "contexto": "ndo presentan el examen es porque el\nauditor o la persona que los está\nsupervisando les aprobó. Entonces les\nhabla generalmente un hindú\ny a mí me cue",
+      "longitud": 75
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "No, digamos, necesito que muevas\ntu computadora, eh de que mostres el\nespacio, si ellos eh consideran de que\nlas fotos de verificación no son\nadecuadas.\nEntonces\nes todo un proceso complejo la primera\nvez. Yo por eso honestamente recomiendo\nno hacerlo en casa.\nSi ustedes tienen un learning center\ncerca donde puedan hacer el examen,\nmejor vayan al learning center. se van a\nahorrar un montón de molestias\nporque muchas veces yo\nno sé, digamos, odio tanto los los los\nsupervisores\nque una vez literalmente\nquería que me quitara los lentes porque\ndecían de que eran unos lentes de Google\nque estaban firmando y yo,",
+      "contexto": "lés,\npero les va a funcionar. Si ustedes no\nhablan muy bien inglés, digan que su\ninglés es muy malo y que si los pueden\neh escribir, porque muchas vec",
+      "longitud": 613
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Entonces es bastante tedioso o o porque\nmi computadora ya no le sirve el\nteclado, yo tenía un teclado y me dice,",
+      "contexto": "z literalmente\nquería que me quitara los lentes porque\ndecían de que eran unos lentes de Google\nque estaban firmando y yo, \"What,\nsiante alcanzo para",
+      "longitud": 112
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Es\ncomplejo, digamos. En cambio, cuando yo\nhacía los examen de Oracle,\nsin mayor problema, digamos, pero con\nlos de Microsoft siento que\nhacen cuestionamiento,\ninterrogan tanto y que te hostigan, que\nvos decís,",
+      "contexto": "zo para mi lente, ¿cómo voy\na comprar un lente de $2,000?\"\nEntonces es bastante tedioso o o porque\nmi computadora ya no le sirve el\nteclado, yo tenía",
+      "longitud": 210
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Entonces yo prefiero ir a\nun learning center porque learning\ncenter simplemente me pide mi cédula o\nmi dui me piden el celular porque no\npuedes tener celular y vámonos a hacer\nel examen y tranquilamente hasta ahí\ndigamos y no están yendo a cada rato\ndecir no copiad no copiad no copi no\ncopi no copi y si estornudo no están ahí\no si me rasco la cabez ningún problema\nporque honestamente cada persona actúa\ndiferente cuando hace un examen, pero\nustedes eh pueden tomar la decisión.\nY aquí hay una pregunta muy interesante.\nYo no recomiendo hacer exámenes en\nespañol\no en el examen de de tu idioma porque\nlas traducciones son muy malas.\nEs más, yo les recomiendo estudiar los\nmateriales en inglés.\nEs difícil si no son bilingües. Yo no\nsoy bilingüe, pero trato de estudiarlas\nlas preguntas hay términos,\nhay términos que están en inglés y\ncuando ustedes toman el curso en español\nla traducción es malísima. Igualmente el\nexamen la traducción es malísima.\nEntonces, yo recomiendo que traten de\nhacer el examen en inglés porque la\nprobabilidad de pasarlo en inglés es\nmucho mayor, aunque ustedes no sepan\ninglés,\ndigamos, porque hay veces yo no sabía\ninglés, pero\nleía un poco, bueno, no sabía hablar\ninglés, pero generalmente uno puede leer\nrelativamente bien. Entonces, eso es una\nun tips de que cuando ustedes programen\ny ya lo vamos a ver, eh lo hagan\nadecuadamente,\neh sigan los materiales y si lo van a\nprogramar en inglés, lean los materiales\nen inglés\ny si lo van a programar en español, si\nes que está en español,\nyo no lo aconsejo, pero si quieren leer\nlos materiales en español, léanlo\n¿Por qué no lo aconsejo? Porque la\ntraducción es malísima, aunque han\nmejorado bastante, digamos, ya con la IA\nlas traducciones son más adecuadas, pero\nen una pregunta examen que te haga una\npregunta tipo español, nosotros que\nsomos latinos, ya no contestamos.\nY ya les voy a mostrar\nbásicamente eh Microsoft L.\nVoy a mostrarles Microsoft Lar.\nYo cuando voy a estudiar, yo pongo\nsiempre Google\ny busco el curso de certificación,\ndigamos, en este caso implementación de\nsoluciones. Este es el curso.\nY bueno, en este caso me lo encontró en\nespañol, a mí no me gusta tomarlo en\nespañol. Entonces ustedes acá hay como\nuna opción de tres puntitos y le dan\nleer en inglés\nporque es el idioma que yo programo en\nlos exámenes.\nVoy a hacer side amo.\ncomo tal está compuesto por ingesta de\ndatos con Microsoft Fabric,\nimplementación de Layhouse, eh\nimplementación en tiempo real,\nimplementar Dark Warehouse, etcétera.\nQuiero ver algo.\nLo vamos, quiero ponerlo acá porque esa\nvista no tenía para programar el examen.\nEste sí. Entonces,\neste es el curso oficial\nde certificación.\nSe los paso aquí en el chat.\nY aquí hay una pregunta. Vamos a ver.\nIgual y dependiente del idioma, les\naviso que el supervisor sí o sí te habla\ny se comunicará en inglés. Sí, por eso\nles digo, digamos, hay un hindúamos.\nYo no sé si es suerte o mala suerte.\nUn hindú siempre me recibe y tras que me\ncuesta entender inglés, entender un\nhindú es complejo.\nEntonces, como les mencioné, yo les digo\na ellos,",
+      "contexto": "examen de Oracle,\nsin mayor problema, digamos, pero con\nlos de Microsoft siento que\nhacen cuestionamiento,\ninterrogan tanto y que te hostigan, que\nvo",
+      "longitud": 3064
+    },
+    {
+      "hablante": "DESCONOCIDO",
+      "texto": "Entonces, traten de sacar este, digamos,\nel la guía oficial, que básicamente son\nuno, 2, 3, cu cco módulos\ny son aproximadamente\n11 horas,\neh 16 horas,\n22 horas, son como 24 de 24 a\n30 horas más o menos.\nSí, si lo a uno lo hace con el ritmo que\nque dice Micros,\nustedes háganlo tranquilamente.\nLas prácticas inténtenlas hacer con\npaciencia, con amor, entender, porque\neso les va a ayudar a contestar el\nexamen. Cuando ustedes se sientan ya\nfamiliarizados,\npueden hacer el examen de práctica. que\naquí lo vamos a hacer, no lo vamos a\nhacer, pero les voy a mostrar. Entonces,\nel examen de práctica,\ndigamos que\nes un 30%\nque les va a ayudar, porque aquí no hay\npreguntas de casos de estudio, no hay\npreguntas de arrastrar, no hay preguntas\nde dream down. Entonces,\npero sí hay preguntas muy interesantes\nque ustedes pueden ver. Y lo que más me\ngusta de esto es que el mismo material\nles permite evaluar si ustedes\ncontactaron correcto. Y si no\ncontestaron correcto, eh también les da\nla opción de poder leer material, que en\nalgunos casos son materiales adicionales\ndel el training que ustedes están\nhaciendo. Entonces, le damos siguiente.\nSolo vamos a contestar por contestar\npara que ustedes vean. Entonces ustedes\neh pueden tomar este examen, traten de\nsacar un 800 o 900 al menos para poder\neh decir que tienen más posibilidades.\nEntonces, eso es importante que lo hagan\nporque es gratis. Háganlo y no tengan\nmiedo en contestar mal. Simplemente vean\nsus respuestas.\nuna, dos o tres veces y después hagan el\nexamen sin estar viendo las respuestas\npara ver si si ustedes van aprendiendo\nmás o menos lo que preguntan.\nY ya para programar el examen aquí es\nalgo importante. Acá en este link que yo\nles pasé ustedes pueden programar el\nexamen. Dice que este examen está en\ninglés, japonés, alemán, español,\nportugués y francés.\nEntonces, como somos latinos, ustedes\npueden pensar en programar el examen en\nespañol, yo no lo recomiendo, pero\nrecuerden que ustedes cuando le dan\nschedule,\nesto no me gusta, hay que estar\nagregando información.\nSan Salvador,\nSan Salvador.\nCuando ustedes ya llenan el formulario,\nson\n1, dos,\nme falta un siete.\nYa comienza. Ah, me está pidiendo el\ncódigo postal.\nYa comienzan\nel agendar el examen. Y aquí es donde\nles preguntan si lo quieren hacer en un\nlearning center o si lo quieren hacer en\nlínea. Vamos a a mostrarles cómo es un\nlearning center. Digamos. En este caso,\nsi yo quiero Learning Center, él me va a\ndecir las ubicaciones disponibles. Le\ndoy siguiente y vamos a ver. Lo quiero\nen inglés.\nLes contestamos. Sí, sí, sí, sí, sí.\nContestamos todo esto. Estoy de acuerdo.\nY me está diciendo,\nvamos a ver. El Salvador\nSearch\ny aquí me salen mis opciones. Digamos,\nsi ustedes son de otro país, pueden\nponer su país y buscar el que más le\nqueda cerca, ¿verdad?\nEntonces, en este caso,\neh, digamos que lo voy a hacer en GBM.\nLe doy siguiente\ny acá me está diciendo las fechas\ndisponible.\nAquí ustedes tienen que adecuarse al\nvoucher que ustedes ganaron.\nSi el voucher dice que ustedes tienen\nque agendar a más tardar hoy,\ntienen que hacerlo hoy o pierden el\nvoucher.\nEntonces, en este caso, yo tengo que\nrespetar\nlas fechas\nque que hay libres. Y si ven acá no\ntengo ninguna fecha libre en este Larry\nCenter\ndice que no está habilitado. Entonces\nvamos a buscar otro learning center.\nVamos a hacerlo en órbita. Vamos a ver\nsi órbita tiene.\nVa. Este sí ya tiene más fechas.\nEntonces pongámoslo que lo vamos a hacer\nel 31.\nY aquí es importante porque yo perdí un\nexamen\nporque no me fijé en la zona horario.\nAcá me está diciendo que estamos en\nAmérica, El Salvador. Está bien,\nestamos excelente porque es mi hora del\nSalvador.\nY ustedes no les gusta la hora que está\nprogramando, ustedes le dan explore more\ntime\ny ven los slot que tienen disponible los\nexámenes.\na mí me gusta hacerlo más o menos a las\n5 de la tarde, pero no hay horas\ndisponibles de las 5 de la tarde. Yo lo\npuedo hacer en la noche. Entonces,\nbusquemos otro día. Tal vez otro día.\nPongamos un viernes.\nAh, no, aquí no me va a aparecer\nhorarios tan noche porque es un learning\ncenter.\nVamos. Ellos de seguro trabajan hasta\nlas 3, hasta la 1. ¿Por qué? Porque el\nexamen dura 2 horas o dura 3 horas. Y\nbueno, dice que este examen dura 120\nminutos.\nEntonces, como es un learning center,\nmis opciones de horario son más\npequeños. Cuando ustedes lo hacen en\nlínea, ustedes pueden hacerlo hasta como\na las 9 de la noche si hay disponible.\nEntonces, digamos que seleccioné la una,\nle doy acá\ny me está diciendo que este examen me va\na costar 54. ¿Por qué me cuesta $4?\nPorque yo estoy registrado como\nestudiante,\npor eso me costó 54.\nY ustedes pueden hacerlo eso en su\nperfil de Microsoft.\nEntonces, algunos por su ubicación\nposiblemente no les dé el descuento. En\nmi caso sí me da el descuento porque soy\ndel Salvador.\nAlgunos compañeros de Costa Rica le dado\nel descuento al al inscribirse como\nestudiante y lo puedan hacer ustedes. Es\ndecir, si ustedes no tienen el\nel descuento de estudiante, pónganlo,\naprovéchenlo porque todavía está\nhabilitado. tenía tiempo de no verlo,\npero si yo no tuviera el descuento de\nestudiante me saldría $ si no me\nequivoco. Le damos el procesor, el\ncheckout y acá es donde ustedes\nno pagar los $ van a escribir acá el\nvoucher que les llegó. Aquí van a poner\nel voucher patito y le dan apply. Y si\nel voucher es válido, esto literalmente\nva a ser cer.\nNo van a pagar nada.\ncon el voucher ustedes ganado. Si no, ni\nmodo, va a tocar pagarlo con con\ntarjeta. Entonces, para los presentes,\nno sé si hay dudas, preguntas,\nporque básicamente eh ya estamos\nterminando esto. Y bueno, aquí no lo voy\na poder agendar. Quiero ver si acá.\nBueno, no me vamos a poner en home.\nVamos ya.\nBueno,\nacá\ncuando ustedes ya lo tengan agendado,\nustedes lo van a ver\nen credenciales\ny las van a ver en certificación.\nEntonces, aquí van a ver los que tienen\ny acá puedan ingresar\npara poderlo hacer. Vamos, en este\nmomento yo no tengo ninguno agendado,\nentonces no lo veo. Pero si estuviera\naquí uno agendado, yo le doy acá y\nautomáticamente me lleva a person\nla página donde yo tengo el examen y\nhacer mi checkin.\nEl checking como tal ustedes tienen que\nhacerlo, si no me equivoco, media hora\nantes y tienen máximo 15 minutos\ndespués de la hora del inicio. Es decir,\nsi ustedes programan para las 10 de la\nmañana, máximo pueden estar haciendo el\nchecking a las 9:15,\nsi no pierden el examen. Yo perdí un\nexamen porque había puesto una hora que\nera una hora\nadelantada con respecto a la mía y yo\nllegué a la hora y el chequín no lo\npodía hacer.\nperdí el examen porque no me fijé en el\nhorario de programación del examen. Eso\nes importante que lo validen, que lo\nvean en su perfil de learned, como les\nexpliqué en la primera clase de crear su\nperfil. Ustedes lo ven acá y ahí pueden\nacceder, pueden ir a verlo para hacer su\ncheck.\nesto es básicamente la sesión de\nprepárarse para el examen.\nEh, mi recomendación es traten de hacer\neste examen que es gratis, háganlo\nviendo las respuestas, leyendo\nmateriales adicionales,\nhagan el curso\nporque el curso les va a ayudar mucho\ny no tengan miedo a perder el examen\nporque ustedes van a ganar un vot.\nCualquiera quiere ganar y pasar el\nexamen porque eso es el objetivo,\ndigamos. Pero no tengan miedo en hacer\nel examen y decir,",
+      "contexto": "mpre me recibe y tras que me\ncuesta entender inglés, entender un\nhindú es complejo.\nEntonces, como les mencioné, yo les digo\na ellos, \"Mi inglés es ma",
+      "longitud": 7269
+    }
+  ]
+}

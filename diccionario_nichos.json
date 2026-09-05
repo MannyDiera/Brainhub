@@ -1,0 +1,34 @@
+{
+  "SALUD": {
+    "terminos": [
+      "paciente", "diagnostico", "diagnóstico", "tratamiento", "salud",
+      "clinica", "clínica", "historia clinica", "medico", "médico",
+      "enfermedad", "sintoma", "síntoma", "hospital"
+    ]
+  },
+  "TECNOLOGIA": {
+    "terminos": [
+      "python", "machine learning", "deep learning", "inteligencia artificial",
+      "algoritmo", "tensor", "modelo", "datos", "software", "codigo",
+      "código", "programacion", "programación", "ia", "red neuronal"
+    ]
+  },
+  "LEGAL": {
+    "terminos": [
+      "expediente", "juzgado", "sentencia", "demanda", "fiscal",
+      "abogado", "ley", "artículo", "articulo", "jurisprudencia"
+    ]
+  },
+  "CIBERSEGURIDAD": {
+    "terminos": [
+      "hacker", "vulnerabilidad", "phishing", "malware", "exploit",
+      "seguridad", "ataque", "cifrado", "encriptacion"
+    ]
+  },
+  "FINANZAS": {
+    "terminos": [
+      "inversion", "inversión", "mercado", "acciones", "cripto",
+      "finanzas", "banco", "capital", "rendimiento"
+    ]
+  }
+}
