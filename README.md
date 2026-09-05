@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BrainHub
 
 Sistema de procesamiento de conocimiento técnico con NLP, grafos y gestión de aprendizaje.
@@ -67,3 +68,7 @@ python3 -m pytest tests/ -v
 - Cobertura: 39%
 
 
+=======
+# Brainhub
+BrainHub es un ecosistema de aprendizaje personal que procesa  contenido técnico (videos, papers, transcripciones) y lo transforma  en conocimiento estructurado: grafos, jerarquías de nichos, resúmenes  80/20 y preguntas de debate.  No es una herramienta de vigilancia epidemiológica. Es un sistema  de aprendizaje extensible.
+>>>>>>> 4ed5a04c9bfba0f2e3adaa252bba0c77cee21a99
