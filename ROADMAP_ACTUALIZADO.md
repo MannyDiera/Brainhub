@@ -132,3 +132,17 @@ BrainHub evolucionó de un pipeline NLP a un sistema completo de:
 - Gestión de aprendizaje personal
 
 **El siguiente salto**: Publicar y aplicar a VigiSalud.
+
+### Módulos Nuevos (2026-09-06)
+- [x] schemas.py: validación Pydantic opcional
+- [x] adapters_fuente.py: detección de fuente (YouTube, GitHub, PDF, texto)
+- [x] rag_simple.py: RAG con BM25, Recall@3=1.0
+- [x] guardias/: cadena de 4 precondiciones de startup
+- [x] fuzzy_nicho.py: tolerancia a errores de transcripción
+- [x] nicho_multietiqueta.py: clasificación simultánea con confianza
+- [x] etiquetas_hibridas.py: motor de híbridos (HEALTH-TECH, FIN-TECH, LEGAL-SECURITY)
+- [x] ponderacion_nichos.py: jerarquización multicriterio
+- [x] generar_abstract.py: resúmenes jerárquicos
+- [x] preguntas_debate.py: generación de debate
+- [x] generar_documento.py: documento 80/20 completo
+- [x] metricas.py: medición de pipeline (KISS)
