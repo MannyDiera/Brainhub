@@ -1,34 +1,98 @@
 {
   "SALUD": {
     "terminos": [
-      "paciente", "diagnostico", "diagnóstico", "tratamiento", "salud",
-      "clinica", "clínica", "historia clinica", "medico", "médico",
-      "enfermedad", "sintoma", "síntoma", "hospital"
+      "paciente",
+      "diagnostico",
+      "diagnóstico",
+      "tratamiento",
+      "salud",
+      "clinica",
+      "clínica",
+      "historia clinica",
+      "medico",
+      "médico",
+      "enfermedad",
+      "sintoma",
+      "síntoma",
+      "hospital"
     ]
   },
   "TECNOLOGIA": {
     "terminos": [
-      "python", "machine learning", "deep learning", "inteligencia artificial",
-      "algoritmo", "tensor", "modelo", "datos", "software", "codigo",
-      "código", "programacion", "programación", "ia", "red neuronal"
+      "crag",
+      "embedding",
+      "programación",
+      "código",
+      "deep learning",
+      "self-rag",
+      "query",
+      "evidence",
+      "inteligencia artificial",
+      "red neuronal",
+      "rag",
+      "graphrag",
+      "vector",
+      "recall",
+      "software",
+      "machine learning",
+      "programacion",
+      "tensor",
+      "hybrid",
+      "retrieval",
+      "chunking",
+      "hnsw",
+      "raptor",
+      "context",
+      "python",
+      "evaluation",
+      "index",
+      "codigo",
+      "modelo",
+      "ia",
+      "bm25",
+      "algoritmo",
+      "reranking",
+      "datos"
     ]
   },
   "LEGAL": {
     "terminos": [
-      "expediente", "juzgado", "sentencia", "demanda", "fiscal",
-      "abogado", "ley", "artículo", "articulo", "jurisprudencia"
+      "expediente",
+      "juzgado",
+      "sentencia",
+      "demanda",
+      "fiscal",
+      "abogado",
+      "ley",
+      "artículo",
+      "articulo",
+      "jurisprudencia"
     ]
   },
   "CIBERSEGURIDAD": {
     "terminos": [
-      "hacker", "vulnerabilidad", "phishing", "malware", "exploit",
-      "seguridad", "ataque", "cifrado", "encriptacion"
+      "hacker",
+      "vulnerabilidad",
+      "phishing",
+      "malware",
+      "exploit",
+      "seguridad",
+      "ataque",
+      "cifrado",
+      "encriptacion"
     ]
   },
   "FINANZAS": {
     "terminos": [
-      "inversion", "inversión", "mercado", "acciones", "cripto",
-      "finanzas", "banco", "capital", "rendimiento"
+      "inversion",
+      "inversión",
+      "mercado",
+      "acciones",
+      "cripto",
+      "finanzas",
+      "banco",
+      "capital",
+      "rendimiento"
     ]
   }
 }
