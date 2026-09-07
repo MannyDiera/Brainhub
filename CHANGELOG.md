@@ -68,3 +68,9 @@
 ### Correcciones
 - GeneradorDocumento: sección de reflexiones integrada
 - Scoring por densidad en detectar_nicho
+
+## [6.5.3] - 2026-09-07
+
+### Mejoras
+- **Shadow Testing**: compara versiones antes del push
+- Detecta regresiones de tiempo y de salida
