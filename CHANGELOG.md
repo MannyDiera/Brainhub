@@ -52,3 +52,19 @@
 - Stopwords dinámicas desde JSON
 - DuckDB como base analítica
 - Detección de nicho básica
+
+## [6.5.2] - 2026-09-07
+
+### Mejoras
+- **Paginación DuckDB**: cursor pagination para datasets grandes
+- **Reflexión post-análisis**: insights automáticos sobre resultados
+- **Preguntas bilingües**: detección de idioma ES/EN
+- **Co-ocurrencias reales**: preguntas basadas en datos del documento
+
+### Módulos nuevos
+- paginacion.py: consultas paginadas
+- reflexion.py: reflexiones post-análisis
+
+### Correcciones
+- GeneradorDocumento: sección de reflexiones integrada
+- Scoring por densidad en detectar_nicho

@@ -35,7 +35,6 @@ class GeneradorDocumento:
     
     def generar_markdown(self, ruta_salida: str) -> str:
         """Genera documento Markdown completo."""
-        
         nicho = self.jerarquia.get('nicho_principal', 'GENERAL')
         secundarios = self.jerarquia.get('secundarios', {})
         
@@ -57,8 +56,7 @@ class GeneradorDocumento:
         for i, termino in enumerate(self.terminos[:10], 1):
             doc += f"| {i} | {termino} | {nicho} |\n"
         
-        doc += f"""
----
+        doc += f"""---
 
 ## 🎯 Preguntas de Debate
 
@@ -68,14 +66,10 @@ class GeneradorDocumento:
             doc += f"### [{pregunta['tipo']}]\n"
             doc += f"{pregunta['pregunta']}\n\n"
         
-        if self.metricas:
-            doc += f"""---
-
-## ⏱️ Métricas de Procesamiento
-
-"""
-            for etapa, duracion in self.metricas.items():
-                doc += f"- **{etapa}**: {duracion}s\n"
+        if hasattr(self, 'reflexiones') and self.reflexiones:
+            doc += "---\n\n## 🧠 Reflexiones Post-Análisis\n\n"
+            for i, reflexion in enumerate(self.reflexiones, 1):
+                doc += f"{i}. {reflexion}\n\n"
         
         doc += f"""---
 
