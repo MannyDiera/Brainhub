@@ -146,3 +146,22 @@ BrainHub evolucionó de un pipeline NLP a un sistema completo de:
 - [x] preguntas_debate.py: generación de debate
 - [x] generar_documento.py: documento 80/20 completo
 - [x] metricas.py: medición de pipeline (KISS)
+
+## Actualización 2026-09-07
+
+### CI/CD (NUEVO)
+- [x] GitHub Actions: tests automáticos (28s)
+- [x] GitHub Actions: guardias (9s)
+- [x] deploy.sh: shadow test + commit + push
+- [x] shadow_testing.py: detecta regresiones
+
+### Módulos Nuevos
+- [x] coherencia_nichos.py: valida jerarquía lógica
+- [x] paginacion.py: cursor pagination DuckDB
+- [x] reflexion.py: reflexiones post-análisis
+
+### Mejoras
+- [x] Scoring por densidad en detectar_nicho
+- [x] Preguntas bilingües (ES/EN)
+- [x] Preguntas dinámicas desde co-ocurrencias
+- [x] Documento 80/20 con reflexiones integradas
