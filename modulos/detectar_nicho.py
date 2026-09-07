@@ -29,6 +29,24 @@ NICHO_KEYWORDS = {
     ]
 }
 
+
+# Cargar diccionario externo si existe
+try:
+    import json
+    from pathlib import Path
+    ruta_nichos = Path.home() / 'proyectos/nlp/diccionario_nichos.json'
+    if ruta_nichos.exists():
+        with open(ruta_nichos, 'r', encoding='utf-8') as f:
+            DICCIONARIO_EXTERNO = json.load(f)
+        # Fusionar con keywords hardcodeados
+        for nicho, info in DICCIONARIO_EXTERNO.items():
+            if nicho not in NICHO_KEYWORDS:
+                NICHO_KEYWORDS[nicho] = info.get('terminos', [])
+            else:
+                NICHO_KEYWORDS[nicho].extend(info.get('terminos', []))
+except Exception:
+    pass
+
 PALABRAS_SALUD = set(NICHO_KEYWORDS['SALUD'])
 PALABRAS_TECNOLOGIA = set(NICHO_KEYWORDS['TECNOLOGIA'])
 
@@ -41,13 +59,15 @@ def detectar_nicho(texto: str) -> str:
     texto_normalizado = normalizar_texto(texto)
     if not texto_normalizado:
         return "GENERAL"
+
+    # Scoring por densidad
+    scores = {}
+    for nicho, terminos in NICHO_KEYWORDS.items():
+        score = sum(1 for p in terminos if p in texto_normalizado)
+        if score > 0:
+            scores[nicho] = score
     
-    # Salud
-    if sum(1 for p in PALABRAS_SALUD if p in texto_normalizado) >= 1:
-        return "SALUD"
+    if not scores:
+        return "GENERAL"
     
-    # Tecnologia
-    if any(p in texto_normalizado for p in PALABRAS_TECNOLOGIA):
-        return "TECNOLOGIA"
-    
-    return "GENERAL"
+    return max(scores, key=scores.get)

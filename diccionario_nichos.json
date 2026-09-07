@@ -94,5 +94,23 @@
       "capital",
       "rendimiento"
     ]
+  },
+  "COMPRAS_PUBLICAS": {
+    "terminos": [
+      "compra",
+      "comprar",
+      "licitacion",
+      "licitación",
+      "adjudicacion",
+      "proveedor",
+      "proveedores",
+      "proceso",
+      "articulo",
+      "artículo",
+      "precio",
+      "oferta",
+      "desierto",
+      "contratacion"
+    ]
   }
 }
