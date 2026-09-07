@@ -57,7 +57,8 @@ abstract_gen = GeneradorAbstract()
 abstract = abstract_gen.generar(jerarquia, terminos)
 
 preguntas_gen = GeneradorPreguntas()
-preguntas = preguntas_gen.generar(jerarquia, terminos)
+coocurrencias = datos.get('coocurrencias', [])
+preguntas = preguntas_gen.generar(jerarquia, terminos, coocurrencias, texto_completo)
 
 doc_gen = GeneradorDocumento()
 doc_gen.cargar_datos(jerarquia, terminos, abstract, preguntas)
