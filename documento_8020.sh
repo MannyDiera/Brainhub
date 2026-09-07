@@ -17,6 +17,8 @@ from modulos.generar_documento import GeneradorDocumento
 from modulos.ponderacion_nichos import PonderacionNichos
 from modulos.coherencia_nichos import CoherenciaNichos
 from modulos.reflexion import ReflexionPostAnalisis
+from modulos.self_rag import SelfRAG
+from modulos.rag_simple import RAGSimple
 from modulos.nichos_manager import NichosManager
 
 with open('$1', 'r') as f:
@@ -60,6 +62,14 @@ abstract = abstract_gen.generar(jerarquia, terminos)
 preguntas_gen = GeneradorPreguntas()
 coocurrencias = datos.get('coocurrencias', [])
 preguntas = preguntas_gen.generar(jerarquia, terminos, coocurrencias, texto_completo)
+
+# Self-RAG: evaluar evidencia de los términos
+if terminos:
+    rag = RAGSimple()
+    rag.indexar([t for t, _ in datos.get('terminos_clave', [])[:10]])
+    self_rag = SelfRAG(rag)
+    evaluacion = self_rag.buscar_con_reflexion(terminos[0][0] if isinstance(terminos[0], (list, tuple)) else terminos[0])
+    print(f"🧠 Self-RAG: {evaluacion['accion']} (confianza: {evaluacion['confianza']})")
 
 reflexion_gen = ReflexionPostAnalisis()
 reflexiones = reflexion_gen.reflexionar(datos)
