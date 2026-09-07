@@ -1,0 +1,24 @@
+name: Guardias
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  guardias:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Verificar identidad
+      run: |
+        python3 -c "
+        import sys
+        sys.path.insert(0, '.')
+        from modulos.content_id import generar_content_id
+        from modulos.content_id import generar_hash
+        assert generar_content_id('https://youtu.be/abc123xyz') == 'youtube:abc123xyz'
+        assert generar_hash('contenido') == generar_hash('contenido')
+        print('✅ Guardias OK')
+        "
