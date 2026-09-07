@@ -51,3 +51,7 @@ python3 -m pytest tests/ -v
 - Relaciones: 503
 - Cobertura: 39%
 - Contenidos procesados: 41
+
+---
+
+⭐ **Si te sirve o te parece interesante, dejá una estrella en GitHub**

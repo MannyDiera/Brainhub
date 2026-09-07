@@ -16,6 +16,7 @@ from modulos.preguntas_debate import GeneradorPreguntas
 from modulos.generar_documento import GeneradorDocumento
 from modulos.ponderacion_nichos import PonderacionNichos
 from modulos.coherencia_nichos import CoherenciaNichos
+from modulos.reflexion import ReflexionPostAnalisis
 from modulos.nichos_manager import NichosManager
 
 with open('$1', 'r') as f:
@@ -60,7 +61,13 @@ preguntas_gen = GeneradorPreguntas()
 coocurrencias = datos.get('coocurrencias', [])
 preguntas = preguntas_gen.generar(jerarquia, terminos, coocurrencias, texto_completo)
 
+reflexion_gen = ReflexionPostAnalisis()
+reflexiones = reflexion_gen.reflexionar(datos)
+
 doc_gen = GeneradorDocumento()
+doc_gen.cargar_datos(jerarquia, terminos, abstract, preguntas)
+doc_gen.reflexiones = reflexiones  # agregar reflexiones
+
 doc_gen.cargar_datos(jerarquia, terminos, abstract, preguntas)
 
 ruta = '$1'.replace('_analisis_completo.json', '_documento_8020.md')

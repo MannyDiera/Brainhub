@@ -21,6 +21,20 @@ class PonderacionNichos:
         self.diccionario = diccionario_nichos or {}
         self.margen_ganador = 0.15  # 15% de diferencia mínima
     
+    # Reglas de coherencia de dominio
+    HERRAMIENTAS_TECNOLOGIA = {'TECNOLOGIA': ['RAG', 'MACHINE_LEARNING']}
+    
+    def _detectar_herramienta_especifica(self, texto: str) -> str:
+        """Detecta herramienta específica para TECNOLOGIA."""
+        texto_lower = texto.lower()
+        
+        if 'rag' in texto_lower or 'retrieval' in texto_lower:
+            return 'RAG'
+        if 'machine learning' in texto_lower or 'deep learning' in texto_lower:
+            return 'MACHINE_LEARNING'
+        
+        return 'TECNOLOGIA'
+    
     def _densidad_semantica(self, texto: str) -> Dict[str, float]:
         """Métrica 1: densidad por volumen."""
         texto_lower = texto.lower()
